@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diamond Resorts</title>
+    <!--Font awesome CDN-->
+    <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <a href="index.html" class="logo">
+                <img src="./images/logo.png" alt="">
+            </a>
+            <div class="hamburger-menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                    <i class="fas fa-times"></i>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-item">
+                    <a href="index.html#hero" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#hotels" class="nav-link">Hotels</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#offers" class="nav-link">Offers</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#promotions" class="nav-link">Promotions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="history.html" class="nav-link">History</a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+
+</header>
+<main>
+    <div class="hero" id="hero">
+        <div class="container">
+            <div class="main-heading">
+                <h1 class="title">Discover</h1>
+                <h2 class="subtitle">Luxury hotels</h2>
+            </div>
+            <a href="./index.html#hotels" class="btn btn-gradient">Explore now
+                <span class="dots"><i class="fa-solid fa-plane"></i></span>
+            </a>
+        </div>
+    </div>
+    <section class="booking">
+        <div class="container">
+            <form action="" class="form">
+                <div class="input-group">
+                    <label for="destination" class="input-label">Destination</label>
+                    <input type="text" class="input" id="destination">
+                </div>
+                <div class="input-group">
+                    <label for="check-in" class="input-label">Check in</label>
+                    <input type="date" class="input" id="check-in">
+                </div>
+                <div class="input-group">
+                    <label for="check-out" class="input-label">Check out</label>
+                    <input type="date" class="input" id="check-out">
+                </div>
+                <div class="input-group">
+                    <label for="adults" class="input-label">Adults</label>
+                    <select id="adults" class="options">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="children" class="input-label">Children</label>
+                    <select id="children" class="options">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                </div>
+                <button class="btn form-btn btn-darkblue">Search
+                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                </button>
+            </form>
+        </div>
+    </section>
+    <section class="hotels" id="hotels">
+        <div class="container">
+            <h5 class="section-head">
+                <span class="heading">Explore</span>
+                <span class="sub-heading">Our beautiful hotels</span>
+            </h5>
+            <div class="grid">
+                <div class="grid-item featured-hotels">
+                    <img src="./images/hotel_astro_resort.jpg" alt="" class="hotel-image">
+                    <h5 class="hotel-name">Astro Hotel</h5>
+                    <span class="hotel-price">From $200/Night</span>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star-half rating"></i>
+                    </div>
+                    <a href="https://www.booking.com/hotel/gr/astro-palace.en-gb.html?aid=356980&label=gog235jc-1DCAsoXEIMYXN0cm8tcGFsYWNlSDNYA2iTAYgBAZgBCbgBF8gBDNgBA-gBAYgCAagCA7gC3-fpmAbAAgHSAiQ2ZjZiNzhiMC03NjZlLTRhZmItYWU5NS1jODZiNWNkZTUwNDHYAgTgAgE&sid=171f251e396733aa0568966f2bfa48c9&dist=0&keep_landing=1&sb_price_type=total&type=total&" target="_blank" class="btn btn-gradient">Book now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+
+                <div class="grid-item featured-hotels">
+                    <img src="./images/hotel_the_enchanted_garden.jpg" alt="" class="hotel-image">
+                    <h5 class="hotel-name">Enchanted Gardens</h5>
+                    <span class="hotel-price">From $300/Night</span>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                    </div>
+                    <a href="https://ar.trivago.com/en/keaau-625812/hotel/enchanted-gardens-2897164" target="_blank" class="btn btn-gradient">Book now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+
+                <div class="grid-item featured-hotels">
+                    <img src="./images/the_paradise_bg.jpg" alt="" class="hotel-image">
+                    <h5 class="hotel-name">The Paradise</h5>
+                    <span class="hotel-price">From $350/Night</span>
+                    <div class="hotel-rating">
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star rating"></i>
+                        <i class="fas fa-star-half rating"></i>
+                    </div>
+                    <a href="https://www.booking.com/hotel/id/downtown-villas.en-gb.html?aid=309654&label=deals-english-en-emea-_9A07rKITpcWvGi79%2AocZwS166197677991%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-53683493%3Alp9075717%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=171f251e396733aa0568966f2bfa48c9&all_sr_blocks=27110209_88838539_0_0_0;checkin=2022-10-19;checkout=2022-10-26;dest_id=835;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=27110209_88838539_0_0_0;hpos=1;matching_block_id=27110209_88838539_0_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=27110209_88838539_0_0_0__1023712300;srepoch=1662678446;srpvid=ab2ca29626060285;type=total;ucfs=1&#hotelTmpl" target="_blank" class="btn btn-gradient">Book now
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="offer" id="offers">
+        <h5 class="section-head">
+            <span class="heading">Active Offers</span>
+            <span class="sub-heading">Try not to miss them</span>
+        </h5>
+        <div class="slide-container swiper">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="container">
+                            <div class="discount">
+                                34% off
+                            </div>
+                            <div class="offer-location">
+                                <i class="fa-solid fa-map-pin"></i>
+                                Bali, Indonesia
+                            </div>
+                            <div class="offer-content">
+                                <h5 class="hotel-name">The Paradise</h5>
+                                <div class="hotel-rating">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                </div>
+                                <p class="paragraph">
+                                    Last minute offer for the most desirable hotel for honeymoon. Spend your weekend here, with our spa, pool and cocktail bar. The Paradise is a 5-minute walk from the Seminyak District and a 30-minute drive from Seminyak Square.
+                                </p>
+                                <a href="https://www.booking.com/hotel/id/downtown-villas.en-gb.html?aid=309654&label=deals-english-en-emea-_9A07rKITpcWvGi79%2AocZwS166197677991%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-53683493%3Alp9075717%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=171f251e396733aa0568966f2bfa48c9&all_sr_blocks=27110209_88838539_0_0_0;checkin=2022-10-19;checkout=2022-10-26;dest_id=835;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=27110209_88838539_0_0_0;hpos=1;matching_block_id=27110209_88838539_0_0_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=27110209_88838539_0_0_0__1023712300;srepoch=1662678446;srpvid=ab2ca29626060285;type=total;ucfs=1&#hotelTmpl" target="_blank" class="btn btn-gradient">Redeem offer
+                                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="container">
+                            <div class="discount">
+                                17% off
+                            </div>
+                            <div class="offer-location">
+                                <i class="fa-solid fa-map-pin"></i>
+                                Palma de Mallorca, Spain
+                            </div>
+                            <div class="offer-content">
+                                <h5 class="hotel-name">Casa Catalina</h5>
+                                <div class="hotel-rating">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star-half rating"></i>
+                                </div>
+                                <p class="paragraph">
+                                    Located in Palma de Mallorca, within 2 km of Playa Ca'n Pere Antoni and 700 m of Palma Yacht Club.Popular points of interest near Casa Catalina include Palma Port, Passeig del Born Avenue and Pueblo Español Mallorca.
+                                </p>
+                                <a href="https://www.booking.com/hotel/es/casa-catalina-palma.en-gb.html?hapos=1&type=total&srpvid=fae4540e787e0515&sr_pri_blocks=236154101_329756757_0_0_0__84875&hpos=1&req_adults=2&room1=A%2CA&aid=309654&sr_order=popularity&dist=0&matching_block_id=236154101_329756757_0_0_0&checkin=2022-10-19&sb_price_type=total&checkout=2022-10-26&all_sr_blocks=236154101_329756757_0_0_0&sid=171f251e396733aa0568966f2bfa48c9&label=deals-english-en-emea-_9A07rKITpcWvGi79*ocZwS166197677991%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-53683493%3Alp9075717%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&dest_type=city&req_children=0&dest_id=-395224&no_rooms=1&group_children=0&group_adults=2&srepoch=1662465437&highlighted_blocks=236154101_329756757_0_0_0&ucfs=1#hotelTmpl" target="_blank" class="btn btn-gradient">Redeem offer
+                                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="container">
+                            <div class="discount">
+                                9% off
+                            </div>
+                            <div class="offer-location">
+                                <i class="fa-solid fa-map-pin"></i>
+                                Fira, Greece
+                            </div>
+                            <div class="offer-content">
+                                <h5 class="hotel-name">Astro Hotel</h5>
+                                <div class="hotel-rating">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                </div>
+                                <p class="paragraph">
+                                    Astro Hotel has a restaurant, outdoor swimming pool, a bar and garden in Porto. This 5-star hotel offers a concierge service and luggage storage space. The accommodation offers a 24-hour front desk and airport transfers.
+                                </p>
+                                <a href="https://www.booking.com/hotel/gr/astro-palace.en-gb.html?aid=356980&label=gog235jc-1DCAsoXEIMYXN0cm8tcGFsYWNlSDNYA2iTAYgBAZgBCbgBF8gBDNgBA-gBAYgCAagCA7gC3-fpmAbAAgHSAiQ2ZjZiNzhiMC03NjZlLTRhZmItYWU5NS1jODZiNWNkZTUwNDHYAgTgAgE&sid=171f251e396733aa0568966f2bfa48c9&dist=0&keep_landing=1&sb_price_type=total&type=total&" target="_blank" class="btn btn-gradient">Redeem offer
+                                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="container">
+                            <div class="discount">
+                                21% off
+                            </div>
+                            <div class="offer-location">
+                                <i class="fa-solid fa-map-pin"></i>
+                                Atrani, Italy
+                            </div>
+                            <div class="offer-content">
+                                <h5 class="hotel-name">L'Argine Fiorito</h5>
+                                <div class="hotel-rating">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star-half rating"></i>
+                                </div>
+                                <p class="paragraph">
+                                    Hotel L'Argine Fiorito offers classic-style rooms with a balcony and views of the natural landscape. This charming, family-run hotel was once an 17th-century pasta factory, now an astonishing hotel.
+                                </p>
+                                <a href="https://www.booking.com/hotel/it/l-argine-fiorito.en-gb.html?aid=309654&label=deals-english-en-emea-_9A07rKITpcWvGi79%2AocZwS166197677991%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-53683493%3Alp9075717%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=171f251e396733aa0568966f2bfa48c9&all_sr_blocks=31284801_170327695_0_1_0;checkin=2022-10-19;checkout=2022-10-26;dest_id=1681;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=1;highlighted_blocks=31284801_170327695_0_1_0;hpos=1;matching_block_id=31284801_170327695_0_1_0;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=31284801_170327695_0_1_0__81480;srepoch=1662467258;srpvid=28e1579ca8b00261;type=total;ucfs=1&#hotelTmpl" target="_blank" class="btn btn-gradient">Redeem offer
+                                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="container">
+                            <div class="discount">
+                                11% off
+                            </div>
+                            <div class="offer-location">
+                                <i class="fa-solid fa-map-pin"></i>
+                                Saint-Tropez, France
+                            </div>
+                            <div class="offer-content">
+                                <h5 class="hotel-name">Hôtel Playa</h5>
+                                <div class="hotel-rating">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star-half rating"></i>
+                                </div>
+                                <p class="paragraph">
+                                    Offering an on-site bar, Hôtel Playa is located in Saint-Tropez, just 150 m from the marina. Situated in the real heart of Saint-Tropez, decorated in pastel tones.It overlooks a small square furnished with tables and chairs.
+                                </p>
+                                <a href="https://www.booking.com/hotel/fr/playa.en-gb.html?aid=309654&label=deals-english-en-emea-_9A07rKITpcWvGi79*ocZwS166197677991%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-53683493%3Alp9075717%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=171f251e396733aa0568966f2bfa48c9&all_sr_blocks=105328701_350694007_2_2_0&checkin=2022-10-19&checkout=2022-10-26&dest_id=-1468723&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=105328701_350694007_2_2_0&hpos=1&matching_block_id=105328701_350694007_2_2_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=105328701_350694007_2_2_0__96600&srepoch=1662467427&srpvid=9eaf57f026f40226&type=total&ucfs=1&activeTab=main" target="_blank" class="btn btn-gradient">Redeem offer
+                                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="container">
+                            <div class="discount">
+                                32% off
+                            </div>
+                            <div class="offer-location">
+                                <i class="fa-solid fa-map-pin"></i>
+                                Thólos, Greece
+                            </div>
+                            <div class="offer-content">
+                                <h5 class="hotel-name">Amethyst Luxury</h5>
+                                <div class="hotel-rating">
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star rating"></i>
+                                    <i class="fas fa-star-half rating"></i>
+                                </div>
+                                <p class="paragraph">
+                                    Amethyst Luxury features a restaurant, swimming pool, a bar and shared lounge in Thólos. Among the facilities at this property are room service and a concierge service, also bike hire and features a garden and terrace.
+                                </p>
+                                <a href="https://www.booking.com/hotel/gr/amethyst-luxury-suites-oia.en-gb.html?aid=309654&label=deals-english-en-emea-_9A07rKITpcWvGi79%2AocZwS166197677991%3Apl%3Ata%3Ap1%3Ap2%3Aac%3Aap%3Aneg%3Afi%3Atikwd-53683493%3Alp9075717%3Ali%3Adec%3Adm%3Appccp%3DUmFuZG9tSVYkc2RlIyh9YcsZ-Id2vkzIfTmYhvC5HOg&sid=171f251e396733aa0568966f2bfa48c9&all_sr_blocks=700778804_288496782_0_1_0;checkin=2022-10-19;checkout=2022-10-26;dest_id=1513;dest_type=region;dist=0;group_adults=2;group_children=0;hapos=8;highlighted_blocks=700778804_288496782_0_1_0;hpos=8;matching_block_id=700778804_288496782_0_1_0;nflt=ht_id%3D204;no_rooms=1;req_adults=2;req_children=0;room1=A%2CA;sb_price_type=total;sr_order=popularity;sr_pri_blocks=700778804_288496782_0_1_0__67680;srepoch=1662469630;srpvid=bc8f5c38b62b03ac;type=total;ucfs=1&#hotelTmpl" target="_blank" class="btn btn-gradient">Redeem offer
+                                    <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section class="rooms" id="promotions">
+        <div class="container">
+            <h5 class="section-head">
+                <span class="heading">Luxurious</span>
+                <span class="sub-heading">Worldwide Rooms</span>
+            </h5>
+            <div class="grid rooms-grid">
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="./images/room_1.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per night</span></span>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel iste ipsum qui ducim.
+                        </p>
+                        <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                    </div>
+                </div>
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="./images/room_2.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per night</span></span>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel iste ipsum qui ducim.
+                        </p>
+                        <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                    </div>
+                </div>
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="./images/room_3.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per night</span></span>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel iste ipsum qui ducim.
+                        </p>
+                        <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                    </div>
+                </div>
+                <div class="grid-item featured-rooms">
+                    <div class="image-wrap">
+                        <img class="room-image" src="./images/room_4.jpg" alt="">
+                        <h5 class="room-name">Astro Hotel</h5>
+                    </div>
+                    <div class="room-info-wrap">
+                        <span class="room-price">$200 <span class="per-night">Per night</span></span>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis vel iste ipsum qui ducim.
+                        </p>
+                        <a href="#" class="btn rooms-btn">Book now &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <h5 class="section-head">
+                <span class="heading">Contact</span>
+                <span class="sub-heading">Get in touch with us</span>
+            </h5>
+            <div class="contact-content">
+                <div class="traveler-wrap">
+                    <img src="./images/traveler.png" alt="">
+                </div>
+                <form action="mailto:contact@yourdomain.com" method="post" class="form contact-form">
+                    <div class="input-group-wrap">
+                        <div class="input-group">
+                            <input type="text" class="input" placeholder="Name" required>
+                            <span class="bar"></span>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" class="input" placeholder="Email" required>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" class="input" placeholder="Subject" required>
+                        <span class="bar"></span>
+                    </div>
+                    <div class="input-group">
+                        <textarea class="input" cols="30" rows="8" placeholder="Subject" required></textarea>
+                        <span class="bar"></span>
+                    </div>
+                    <button type="submit" class="btn form-btn btn-darkblue">Send Message
+                        <span class="dots"><i class="fas fa-ellipsis-h"></i></span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-content-brand">
+                <a href="index.html" class="logo">
+                    <img class="logo-image" src="./images/logo.png" alt="">
+                </a>
+                <div class="paragraph">
+                    Diamond Resorts is an establishment that provides paid lodging on a short-term basis (Long-term lodging is negotiable. Contact us if you are interested!). We provide <em>high-quality services</em> all around the world.
+                </div>
+            </div>
+            <div class="social-media-wrap">
+                <h4 class="footer-heading">Follow us</h4>
+                <div class="social-media">
+                    <a href="https://twitter.com" target="_blank" class="sm-link"><i class="fab fa-twitter"></i></a>
+                    <a href="https://facebook.com" target="_blank" class="sm-link"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://instagram.com" target="_blank" class="sm-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://pinterest.com" target="_blank" class="sm-link"><i class="fab fa-pinterest"></i></a>
+                    <a href="https://maps.google.com" target="_blank" class="sm-link"><i class="fa-solid fa-map-location-dot"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://kit.fontawesome.com/d445fb0da7.js" crossorigin="anonymous"></script>
+<script src="swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
