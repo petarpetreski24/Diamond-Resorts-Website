@@ -15,8 +15,7 @@ navList.addEventListener('click',function () {
     header.classList.toggle('menu-open');
 })
 
-
-var swiper = new Swiper(".slide-content", {
+let swiper = new Swiper(".slide-content", {
     slidesPerView: 3,
     spaceBetween: 25,
     loop: true,
