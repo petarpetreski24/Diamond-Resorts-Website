@@ -394,7 +394,7 @@ section{
     text-transform: uppercase;
     outline: 2px solid var(--beige-solid);
     outline-offset: 0.5rem;
-    z-index: 10;
+    z-index: 999999;
     border-radius: 50% 20% / 10% 40%;
 }
 
